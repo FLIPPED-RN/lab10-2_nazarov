@@ -76,7 +76,7 @@ class Program
             int gradePercentage = int.Parse(Console.ReadLine());
             SpecialExam specialExam1 = new SpecialExam(discipline2, studentCount2, examDuration2, gradePercentage);
 
-            Console.WriteLine("\nИнформация об экзамене (класс 1-го уровня):");
+            Console.WriteLine("Информация об экзамене (класс 1-го уровня):");
             exam1.DisplayInfo();
 
             Console.WriteLine("Информация о специальном экзамене (класс 2-го уровня):");
